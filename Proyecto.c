@@ -53,7 +53,7 @@ int main()
   //Ciclo Infinito 
   while(1)                                   
   {
-    cont=0;    
+    
     //Indicacion de los pines a utilizar
     frente= ping_cm(8);                    
     derecha = ping_cm(9);
