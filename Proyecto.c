@@ -94,6 +94,7 @@ int main()
       //Si gira 5 veces a derecha que siga recto hasta encontrar una pared
       if (cont==5){
         while (frente>10){ 
+        frente=ping_cm(8);
         drive_goto(30,30);
         pause(200);
         }       
