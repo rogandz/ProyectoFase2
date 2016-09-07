@@ -87,7 +87,7 @@ int main()
       cont=cont+1;
       pause(200);
       //Avanzar
-      drive_goto(50, 50);
+      drive_goto(35, 35);
       pause(200); 
       
       //Si gira 5 veces a derecha que siga recto hasta encontrar una pared
