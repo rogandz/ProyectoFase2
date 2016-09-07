@@ -23,7 +23,7 @@
 //Variables a Utilizar 
 int frente;                                 
 int derecha;
-int cont=0;
+int cont;
 
 
 #define capacity 100
@@ -50,6 +50,7 @@ int pop(){
 //Main
 int main()                   
 {
+  cont=0;
   //Ciclo Infinito 
   while(1)                                   
   {
