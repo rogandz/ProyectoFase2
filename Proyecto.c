@@ -23,7 +23,7 @@
 //Variables a Utilizar 
 int frente;                                 
 int derecha;
-int cont;
+int cont=0;
 
 
 #define capacity 100
@@ -62,6 +62,7 @@ int main()
     if(derecha<25){
       //Si se detecta pared a la derecha y pared enfrente
       if(frente<10){
+        cont=0;
         //Parar
         drive_speed(0, 0);
         //Girar a la izquierda
@@ -86,7 +87,7 @@ int main()
       cont=cont+1;
       pause(200);
       //Avanzar
-      drive_goto(64, 64);
+      drive_goto(50, 50);
       pause(200); 
       
       //Si gira 5 veces a derecha que siga recto hasta encontrar una pared
