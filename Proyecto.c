@@ -93,17 +93,14 @@ int main()
       
       //Si gira 5 veces a derecha que siga recto hasta encontrar una pared
       if (cont==5){
-        while (frente>10){    
-        drive_goto(64,64);
+        while (frente>10){ 
+        drive_goto(30,30);
         pause(200);
         }       
-      //Si encuentra una pared, que gire dos veces a la izquierda 
-      cont=0;
-      drive_goto(-25, 26);
-      pause(200);
-      drive_goto(-25, 26);
-      pause(200);
-      
+        //Si encuentra una pared, que gire dos veces a la izquierda 
+        cont=0;
+        drive_goto(-25, 26);
+        pause(200);
       }        
     }                     
   } 
